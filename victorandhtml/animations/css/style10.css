@@ -1,0 +1,87 @@
+body {
+  background-color: darkblue;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 3em;
+  min-width: 900px;
+}
+
+#form {
+  display: flex;
+  justify-content: center;
+  min-width: 900px;
+}
+
+#text {
+  width: 100px;
+  margin-left: -20px;
+}
+
+#button {
+  margin-left: 20px;
+}
+
+#circles {
+  display: flex;
+  justify-content: space-around;
+  min-width: 900px;
+}
+
+.circle1 {
+  height: 100px;
+  width: 100px;
+  background-color: transparent;
+  border-radius: 50%;
+}
+
+.circle2 {
+  height: 100px;
+  width: 100px;
+  background-color: transparent;
+  border-radius: 50%;
+}
+
+.circle3 {
+  height: 100px;
+  width: 100px;
+  background-color: transparent;
+  border-radius: 50%;
+}
+
+.circle4 {
+  height: 100px;
+  width: 100px;
+  background-color: transparent;
+  border-radius: 50%;
+}
+
+.circle5 {
+  height: 100px;
+  width: 100px;
+  background-color: transparent;
+  border-radius: 50%;
+}
+
+.circle6 {
+  height: 100px;
+  width: 100px;
+  background-color: transparent;
+  border-radius: 50%;
+}
+
+.circle7 {
+  height: 100px;
+  width: 100px;
+  background-color: transparent;
+  border-radius: 50%;
+}
+
+.circle8 {
+  height: 100px;
+  width: 100px;
+  background-color: transparent;
+  border-radius: 50%;
+}

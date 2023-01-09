@@ -1,0 +1,40 @@
+h1 {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+a {
+	color: blue;
+	text-decoration: none;
+	cursor: auto;
+}
+
+#flexing {
+	display: flex;	
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+}
+
+#stall {
+	color: darkblue;
+}
+
+#hurry {
+	color: green;
+	font-size: 60px;
+}
+
+#canvas1 {
+	border: black 4px solid;
+	background-color: red;
+	animation-name: color;
+	animation-duration: 0.7s;
+}
+
+@keyframes color {
+	from{background-color: green;}
+	to {background-color: red;}
+}

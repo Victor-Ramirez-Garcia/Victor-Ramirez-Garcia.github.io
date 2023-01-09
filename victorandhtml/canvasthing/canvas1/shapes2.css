@@ -1,0 +1,15 @@
+#flexing {
+	display: flex;	
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+}
+
+#canvas1 {
+	border: black 3px solid;
+}
+
+#canvas2 {
+	transform: rotate(90deg);
+}

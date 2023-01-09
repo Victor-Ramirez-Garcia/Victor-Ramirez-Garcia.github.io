@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Indigenous people of Oaxaca</title>
+	<link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+	<div id='introduccion'>
+		<h1 id='introTitle'>Welcome!</h1>
+		<hr style="border-color: black;">
+		<h2>Instructions:</h2>
+		<h2>Step 1. When you drag your mouse to any name of indigenous people, 
+			a golden star will show up in the map of what area they lived in.
+		</h2>
+		<h2>Step 2. If you click on any name, a pdf document will show up. 
+			This pdf document will talk about a brief description of who they are.
+		</h2>
+		
+		<h2 id='exit'>Click here to open the map!</h2>
+
+		<h2>Hope you get to learn a little bit about indigenous people of Oaxaca.</h2>
+
+		<h2 style="margin-bottom: 0.5vh;">Here are the sources I used for the map and slides:</h2>
+
+		<a id='credit' href="https://commons.wikimedia.org/w/index.php?curid=10961199" target="_blank">
+			Map Source: 
+			El bart089derivative work: Aymatth2 (talk) - Map_of_Oaxaca.svg, CC BY-SA 3.0, changes were made
+		</a>
+
+		<a id='credit' href="https://indigenousmexico.org/oaxaca/oaxaca-a-land-of-amazing-diversity/" target="_blank">
+			Indigenous Mexico, Oaxaca: A Land of Amazing Diversity by John P. Schmal, Sep 19, 2019
+		</a>
+
+		<a id="credit" href="https://elalliance.org/languages/meso-america/amuzgo/" target="_blank">
+			ELA: Amuzgo, an Eastern Oto-Manguean language of Mexico
+		</a>
+
+		<a id="credit" href="https://omniglot.com/writing/chatino.htm" target="_blank">
+			Omniglot: Chatino
+		</a>
+
+		<a id="credit" href="https://en.wikipedia.org/wiki/Chatino_language" target="_blank">
+			Wikipedia: Chatino language
+		</a>
+
+		<a id="credit" href="http://atlas.inpi.gob.mx/?page_id=4082" target="_blank">
+			Atlas de los Pueblos Indigenas de Mexico: Chocholtecos - Etnografia
+		</a>
+
+		<a id="credit" href="http://atlas.inpi.gob.mx/?page_id=4220" target="_blank">
+			Atlas de los Pueblos Indigenas de Mexico: Chontales de Oaxaca - Etnografia
+		</a>
+
+		<a id="credit" href="http://www.houstonculture.org/mexico/oaxaca2.html" target="_blank">
+			Houston Culture, Oaxaca: A Land of Diversity
+		</a>
+
+		<a id="credit" href="https://www.everyculture.com/Middle-America-Caribbean/Huave.html" target="_blank">
+			Every Culture: Huave
+		</a>
+
+		<a id="credit" href="https://dbpedia.org/page/Ixcatec_language" target="_blank">
+			Dbpedia: Ixcatec language
+		</a>
+
+		<a id="credit" href="https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/mazatec" target="_blank">
+			Encyclopedia: Mazatec
+		</a>
+
+		<a id="credit" href="https://elalliance.org/languages/meso-america/mixe/" target="_blank">
+			Elalliance: Mixe
+		</a>
+
+		<a id="credit" href="https://omniglot.com/writing/mixtec.htm" target="_blank">
+			Omniglot: Mixtec
+		</a>
+
+		<a id="credit" href="https://elalliance.org/languages/meso-america/nahuatl/" target="_blank">
+			Elalliance: Nahuatl
+		</a>
+
+		<a id="credit" href="https://mexico.sil.org/publications/confusion-of-names/confusing-popoloca-popoluca" target="_blank">
+			SIL: The confusion names of "Popoloca" and "Popoluca"
+		</a>
+
+		<a id="credit" href="https://mexico.sil.org/language_culture/mixtec/mixtec-mza" target="_blank">
+			SIL: Zacatepec Mixtec
+		</a>
+
+		<a id="credit" href="http://christiandicanio.blogspot.com/2019/08/is-it-trique-or-triqui.html" target="_blank">
+			Christiandicanio: Is it Trique or Triqui?
+		</a>
+
+		<a id="credit" href="https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/triqui" target="_blank">
+			Encyclopedia: Triqui
+		</a>
+
+		<a id="credit" href="https://www.mustgo.com/worldlanguages/zapotec/" target="_blank">
+			Mustgo: Zapotec
+		</a>
+
+		<a id="credit" href="https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/zoque" target="_blank">
+			Encyclopedia: Zoque
+		</a>
+	</div>
+
+	<div id="centering1">
+		<h1 id='header1'>Map of Oaxaca, M&eacute;xico</h1>
+		<hr>
+		<img id='image' draggable='false' src="image/Oaxaca_map.jpg">
+		<canvas id='star' height='100' width='100'></canvas>
+		<h1 id='indigenousName'></h1>
+		<img draggable='false' id='slide'>
+		<p id="return" onclick='returnBack()'></p>
+	</div>
+
+	<div id="centering2">
+		<h1 id='header2'>Names of the most known indigenous people of Oaxaca:</h1>
+		<hr>
+		<ol>
+			<li class='name1' onmouseover='showStar("3vh", "-26vh", "22.5vh", 0, "15vh")'>
+				<p onclick='animation("history/amuzgo.png", "-50vh", "125vh", "-3vh")' >Amuzgo</p>
+			</li>
+
+			<li class='name2' onmouseover='showStar("4vh", "-19vh", "40vh", 1, "33vh")'>
+				<p onclick='animation("history/chatino.png", "-60vh", "125vh", "-1vh")'>Chatino</p>
+			</li>
+
+			<li class='name3' onmouseover='showStar("4vh", "-61vh", "63vh", 2, "52vh")'>
+				<p onclick='animation("history/chinanteco.png", "-20vh", "124vh", "0vh")'>Chinanteco</p>
+			</li>
+
+			<li class='name4' onmouseover='showStar("3vh", "-54vh", "35.3vh", 3, "23vh")'>
+				<p onclick='animation("history/chocholteco.png", "-20vh", "125vh", "-12vh")'>Chocholteco</p>
+			</li>
+
+			<li class='name5' onmouseover='showStar("3vh", "-19vh", "73vh", 4, "66vh")'>
+				<p onclick='animation("history/chontal.png", "-60vh", "125vh", "-6vh")'>Chontal</p>
+			</li>
+
+			<li class='name6' onmouseover='showStar("3vh", "-60vh", "53.5vh", 5, "44vh")'>
+				<p onclick='animation("history/cuicateco.png", "-10vh", "125vh", "-14vh")'>Cuicateco</p>
+			</li>
+
+			<li class='name7' onmouseover='showStar("3vh", "-22vh", "102vh", 6, "96vh")'>
+				<p onclick='animation("history/huave.png", "-50vh", "125vh", "-10vh")'>Huave</p>
+			</li>
+
+			<li class='name8' onmouseover='showStar("3vh", "-56vh", "39vh", 7, "31vh")'>
+				<p onclick='animation("history/Ixcatec.png", "-20vh", "125vh", "-1vh")'>Ixcatec</p>
+			</li>
+
+			<li class='name9' onmouseover='showStar("3vh", "-69vh", "56vh", 8, "46.5vh")'>
+				<p onclick='animation("history/mazateco.png", "-5vh", "125vh", "-7vh")'>Mazateco</p>
+			</li>
+
+			<li class='name10' onmouseover='showStar("3vh", "-42vh", "80vh", 9, "75vh")'>
+				<p onclick='animation("history/mixe.png", "-35vh", "125vh", "-4vh")'>Mixe</p>
+			</li>
+
+			<li class='name11' onmouseover='showStar("4vh", "-42vh", "30vh", 10, "22.5vh")'>
+				<p onclick='animation("history/mixteco.png", "-35vh", "125vh", "-3vh")'>Mixteco</p>
+			</li>
+
+			<li class='name12' onmouseover='showStar("3vh", "-65vh", "47vh", 11, "39.5vh")'>
+				<p onclick='animation("history/nahuatl.png", "-5vh", "125vh", "-10vh")'>N&aacute;huatl</p>
+			</li>
+
+			<li class='name13' onmouseover='showStar("3vh", "-68vh", "63vh", 12, "54vh")'>
+				<p onclick='animation("history/popoluca.png", "-5vh", "125vh", "-3vh")'>Popoluca</p>
+			</li>
+
+			<li class='name14' onmouseover='showStar("3vh", "-30.5vh", "23vh", 13, "15.5vh")'>
+				<p onclick='animation("history/tacuate.png", "-40vh", "125vh", "-13vh")'>Tacuate</p>
+			</li>
+
+			<li class='name15' onmouseover='showStar("3vh", "-39vh", "24vh", 14, "18.5vh")'>
+				<p onclick='animation("history/trique.png", "-37vh", "125vh", "-1vh")'>Trique</p>
+			</li>
+
+			<li class='name16' onmouseover='showStar("7vh", "-40vh", "56vh", 15, "49.5vh")'>
+				<p onclick='animation("history/zapoteco.png", "-35vh", "125vh", "-11vh")'>Zapoteco</p>
+			</li>
+
+			<li class='name17' onmouseover='showStar("5vh", "-35vh", "100vh", 16, "95vh")'>
+				<p onclick='animation("history/zoque.png", "-40vh", "125vh", "-10vh")'>Zoque</p>
+			</li>
+		</ol>
+	</div>	
+
+	<script src='index.js'></script>
+</body>
+</html>

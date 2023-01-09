@@ -1,0 +1,27 @@
+html {
+	background-color: darkred;
+}
+
+h1 {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+a {
+	color: blue;
+	text-decoration: none;
+	cursor: auto;
+}
+
+form {
+	display: flex;	
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+}
+
+input {
+	background-color: skyblue;
+}

@@ -1,0 +1,165 @@
+/*THis is my my styles for the gradients and the animations*/
+:root {
+  --gradient1: linear-gradient(to left, #fcc5e4 0%, #fda34b 15%, #ff7882 35%, #c8699e 52%, #7046aa 71%, #0c1db8 87%, #020f75 100%);
+  --gradient2: linear-gradient(to right, #dbdcd7 0%, #dddcd7 24%, #e2c9cc 30%, #e7627d 46%, #b8235a 59%, #801357 71%, #3d1635 84%, #1c1a27 100%);
+}/*
+above there are two variables, one called gradient1 and the other gradient 2 and they have a gradient*/
+body {
+  margin: 0;
+  padding: 0;
+  background-image: var(--gradient1);
+  background-size: 200%;
+  animation: gradients1 5s infinite alternate;
+  overflow: hidden;
+}
+/*for the body, I decided to give a margin and padding to 0
+I gave the background a gradient with the size of 200% for the animation
+The animation name is called gradients1, the animation lasts 5 seconds
+and it will repeat itselfafter it goes back to the left position
+so thats why you can see the gradient move from left to right
+and from right to left continously without any problems*/
+@keyframes gradients1 {
+  0% {
+    background-position: right;
+  }
+
+  100% {
+    background-position: left;
+  }
+}
+/*End of body*/
+
+/*this is the h1 written tag
+I gave it a flex display
+ and made it centered with a font size of 3em*/
+#context {
+  display: flex;
+  justify-content: center;
+  font-size: 3em;
+}
+/*End of context*/
+
+/*This is the first box
+You cant see it but its important
+because it holds the animation to be centered
+I added a flex display to be centered
+with a height of 100% so that it is centered
+and a margin-top of -87px
+because the h1 tag moves the animation down*/
+.animationMain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  margin-top: -87px;
+}
+/*End of animationMain*/
+
+/*This is the second box
+I gave it a height and a width of 600px
+with a similar gradient as the first context
+with a background-size of 200%
+the animation name is called gradients2
+the whole animation is five seconds
+and it repeates itself infinitely
+and i made it alternate to go in reverse also
+so that there is no problem of lag*/
+.animationMain > .animationBox {
+  height: 600px;
+  width: 600px;
+  background-image: var(--gradient2);
+  background-size: 200%;
+  animation: gradients2 5s infinite alternate;
+}
+
+/*the gradient moves from left to right
+and from right to left infinitely*/
+@keyframes gradients2 {
+  0% {
+    background-position: right;
+  }
+
+  100% {
+    background-position: left;
+  }
+}
+/*End of animationBox*/
+
+/*This is the animation
+I have it a height and a width of 100px
+witha relative position
+the animation name is called positions
+and it lasts 7 seconds*/
+.animation1 {
+  height: 100px;
+  width: 100px;
+  position: relative;
+  top: 500px;
+  left: 0px;
+  animation: positions 7s;
+}
+
+/*everytime it moves to a corner it will change color
+
+in the beggining it will stay as a 'house'
+
+then in will move to the top left corner of the box
+making the 'house' into a circle
+
+then it will move to the top right corner of the box
+making the circle into a 'eye' figure
+
+then it will move to the bottom right corner of the box
+making 'eye' figure into a square
+
+then in will move back to beggining
+making the square again into the 'eye' picture
+fading away*/
+@keyframes positions {
+ 0% {
+   top: 500px;
+   left: 0px;
+   border-radius: 50% 50% 0% 0%;
+   background-color: #A86000;
+ }
+
+ 25% {
+   top: 0px;
+   left: 0px;
+   border-radius: 50% 50% 50% 50%;
+   background-color: #A86000;
+ }
+
+ 50% {
+   top: 0px;
+   left: 500px;
+   border-radius: 50% 0% 50% 0%;
+   background-color: #6D006D;
+ }
+
+ 75% {
+   top: 500px;
+   left: 500px;
+   border-radius: 0% 0% 0% 0%;
+   background-color: #007342;
+ }
+
+ 100% {
+   top: 500px;
+   left: 0px;
+   border-radius: 0% 50% 0% 50%;
+ }
+}
+/*end of animation1*/
+
+/*This is my button
+this buttons has a border of 0px,
+a height and width of 100px and
+a transparent background so that
+you can see the animation.*/
+#button {
+  border: 0px;
+  height: 100px;
+  width: 100px;
+  background: transparent;
+}

@@ -1,0 +1,19 @@
+h1 {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	font-weight: bold;
+	color: red;
+}
+
+a {
+	color: purple;
+}
+
+#noCanvas {
+	display: flex;	
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+}

@@ -1,0 +1,56 @@
+body {
+  background-size: 300%;
+  background-image: linear-gradient(to right, #231557 0%, #44107A 29%, #FF1361 67%, #FFF800 100%);
+  animation: gradients 2s infinite alternate;
+}
+
+@keyframes gradients {
+  0% {
+    background-position: left;
+  }
+
+  100% {
+    background-position: right;
+  }
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 3em;
+  min-width: 760px;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  min-width: 760px;
+}
+
+#rainbow1 {
+  height: 100px;
+  width: 760px;
+  border: 0px;
+  background-image: linear-gradient(to left, red, orange, yellow, green, blue, indigo, violet);
+}
+
+#rainbow2 {
+  height: 100px;
+  width: 760px;
+  border: 0px;
+  background-image: linear-gradient(to right, red, orange, yellow, green, blue, purple, pink);
+}
+
+#rainbow3 {
+  height: 100px;
+  width: 760px;
+  border: 0px;
+  background-image: linear-gradient(to right, violet, indigo, blue, green, yellow, orange, red);
+}
+
+#rainbow4 {
+  height: 100px;
+  width: 760px;
+  border: 0px;
+  background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, pink);
+}

@@ -1,0 +1,58 @@
+html {
+	border: brown 4px solid;
+	background-color: yellow;
+	cursor: none;
+}
+
+h1 {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+a {
+	color: blue;
+	text-decoration: none;
+	cursor: auto;
+}
+
+#flexing {
+	display: flex;	
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: stretch;
+}
+
+#canvas1 {
+	border: blue 4px solid;
+}
+
+#canvas2 {
+	border: green 4px solid;
+}
+
+#canvas3 {
+	border: red 4px solid;
+}
+
+#canvas4 {
+	border: purple 4px solid;
+}
+
+#canvas5 {
+	border: pink 4px solid;
+}
+
+#canvas6 {
+	border: skyblue 4px solid;
+}
+
+#flexingRight {
+	display: flex;	
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+	margin-top: 200px;
+}

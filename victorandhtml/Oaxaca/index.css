@@ -1,0 +1,292 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	background-color: darkgrey;
+}
+
+ol {
+	font-size: 3.5vh;
+	margin-left: 3vh;
+	list-style: square;
+}
+
+h2 {
+	display: flex;
+	justify-content: center;
+	font-size: 2.5vh;
+	margin-top: -1.2vh;
+}
+
+#introduccion {
+	background-color: white;
+	height: 93vh;
+	width: 101vh;
+	border: 1.2vh solid black;
+	border-radius: 1em;
+	margin: auto;
+	margin-top: 2vh;
+}
+
+#introTitle {
+	display: flex;
+	justify-content: center;
+	margin: auto;
+	font-size: 5vh;
+}
+
+#exit {
+	display: flex;
+	justify-content: center;
+	color: darkred;
+	cursor: pointer;
+	text-decoration: underline;
+	margin-top: -1vh;
+	margin-bottom: 2vh;
+	margin-left: 35vh;
+	margin-right: 35vh;
+}
+
+#centering1 {
+	display: none;
+	background-color: white;
+	height: 93vh;
+	width: 132.1vh;
+	border: 1.2vh solid black;
+	border-radius: 1em;
+	margin-top: 2vh;
+	margin-left: 2px;
+}
+
+@keyframes expand {
+	from {
+		width: 132.1vh;
+	}
+
+	to {
+		width: 190vh;
+	}
+}
+
+@keyframes shrink {
+	from {
+		width: 190vh;
+	}
+
+	to {
+		width: 132.1vh;
+	}
+}
+
+#header1 {
+	display: flex;
+	justify-content: center;
+	margin: auto;
+	font-size: 5vh;
+}
+
+#image {
+	margin-left: 12vh;
+	height: 75vh;
+}
+
+#star {
+	display: none;
+}
+
+#indigenousName {
+	color: grey;
+	font-size: 5vh;
+	margin-top: -2vh;
+}
+
+#slide {
+	display: block;
+	opacity: 1;
+}
+
+@keyframes showSlide {
+	from {
+		opacity: 0;
+	}
+
+	to {
+		opacity: 1;
+	}
+}
+
+@keyframes cutSlide {
+	from {
+		opacity: 1;
+	}
+
+	to {
+		opacity: 0;
+	}
+}
+
+#return {
+	display: block;
+	font-size: 3.2vh;
+	text-decoration: underline;
+	margin-left: 155vh;
+	cursor: pointer;
+	opacity: 1;
+}
+
+@keyframes showExit {
+	from {
+		opacity: 0;
+	}
+
+	to {
+		opacity: 1;
+	}
+}
+
+@keyframes cutExit {
+	from {
+		opacity: 1;
+	}
+
+	to {
+		opacity: 0;
+	}
+}
+
+/*Centering2 start*/
+#centering2 {
+	display: none;
+	background-color: white;
+	height: 93vh;
+	width: 50vh;
+	border: 1.2vh solid black;
+	border-radius: 1em;
+	margin-left: 140vh;
+	margin-top: -95.4vh;
+	overflow: none;
+}
+
+@keyframes disappear {
+	from {
+		opacity: 1;
+	}
+
+	to {
+		opacity: 0;
+	}
+}
+
+@keyframes show {
+	from {
+		opacity: 0;
+	}
+
+	to {
+		opacity: 1;
+	}
+}
+
+#header2 {
+	margin: 0;
+	margin-left: 4vh;
+	font-size: 5vh;
+}
+
+#centering2 p {
+	cursor: pointer;
+	text-decoration: underline;
+	margin-top: -3.4vh;
+}
+
+.name1, .name1 p {
+	color: #008000;
+	width: 12vh;
+}
+
+.name2, .name2 p {
+	color: #004455;
+	width: 11vh;
+}
+
+.name3, .name3 p {
+	color: #CCCC00;
+	width: 16vh;
+}
+
+.name4, .name4 p {
+	color: #00ffff;
+	width: 18vh;
+}
+
+.name5, .name5 p {
+	color: #916f8a;
+	width: 11vh;
+}
+
+.name6, .name6 p {
+	color: #217821;
+	width: 14vh;
+}
+
+.name7, .name7 p {
+	color: #c8b7c4;
+	width: 11vh;
+}
+
+.name8, .name8 p {
+	color: #0000ff;
+	width: 12vh;
+}
+
+.name9, .name9 p {
+	color: #80e5ff;
+	width: 14vh;
+}
+
+.name10, .name10 p {
+	color: #ff0066;
+	width: 8vh;
+}
+
+.name11, .name11 p {
+	color: #00ff00;
+	width: 12vh;
+}
+
+.name12, .name12 p {
+	color: #ff0000;
+	width: 10vh;
+}
+
+.name13, .name13 p {
+	color: #aa0044;
+	width: 12vh;
+}
+
+.name14, .name14 p {
+	color: #99ff55;
+	width: 11vh;
+}
+
+.name15, .name15 p {
+	color: #00aa44;
+	width: 9vh;
+}
+
+.name16, .name16 p {
+	color: #00aad4;
+	width: 13vh;
+}
+
+.name17, .name17 p {
+	color: #ff80b2;
+	width: 9vh;
+}
+
+#credit {
+	display: flex;
+	justify-content: center;
+	color: black;
+	font-size: 2vh;
+	margin-top: 0.5vh;
+}

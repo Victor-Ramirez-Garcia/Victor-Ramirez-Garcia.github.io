@@ -1,0 +1,25 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	background-color: black;
+}
+/*The html and body tags are going to have 0 margin and 0 padding
+with a background color of black*/
+
+h1 {
+	display: flex;
+	justify-content: center;
+	margin: auto;
+	font-size: 5vh;
+	color: grey;
+}
+/*All h1 tags will have displayed flexbox, 
+centering them on the x-axis with a color of grey, 
+a font-size of 5 virtual height pixels
+and a auto margin to fix the spacing on every h1 tag*/
+
+/*
+I use virtual height units on both of them (height and width) 
+so that the height and width of the borders get smaller 
+everytime the height of the browser gets smaller
+*/

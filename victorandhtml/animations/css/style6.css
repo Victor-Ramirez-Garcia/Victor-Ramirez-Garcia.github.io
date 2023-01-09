@@ -1,0 +1,211 @@
+body {
+  background-color: darkblue;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 3em;
+  min-width: 580px;
+}
+
+#form {
+  display: flex;
+  justify-content: center;
+  min-width: 580px;
+}
+
+#text {
+  width: 100px;
+  margin-left: -20px;
+}
+
+#button {
+  margin-left: 20px;
+}
+
+#squares {
+  display: flex;
+  justify-content: center;
+  min-width: 580px;
+}
+
+.square1 {
+  height: 100px;
+  width: 100px;
+  background-color: red;
+  margin-right: 10px;
+}
+
+.square2 {
+  height: 100px;
+  width: 100px;
+  background-color: green;
+  margin-right: 10px;
+}
+
+.square3 {
+  height: 100px;
+  width: 100px;
+  background-color: purple;
+  margin-right: 10px;
+}
+
+.square4 {
+  height: 100px;
+  width: 100px;
+  background-color: blue;
+  margin-right: 10px;
+}
+
+.square5 {
+  height: 100px;
+  width: 100px;
+  background-color: turquoise;
+  margin-right: 10px;
+}
+
+.square6 {
+  height: 100px;
+  width: 100px;
+  background-color: pink;
+  margin-right: 10px;
+}
+
+.square7 {
+  height: 100px;
+  width: 100px;
+  background-color: magenta;
+  margin-right: 10px;
+}
+
+.square8 {
+  height: 100px;
+  width: 100px;
+  background-color: black;
+  margin-right: 10px;
+}
+
+#squares2 {
+  display: flex;
+  justify-content: center;
+  min-width: 580px;
+}
+
+.square1a {
+  height: 100px;
+  width: 100px;
+  background-color: magenta;
+  margin-right: 10px;
+}
+
+.square2a {
+  height: 100px;
+  width: 100px;
+  background-color: pink;
+  margin-right: 10px;
+}
+
+.square3a {
+  height: 100px;
+  width: 100px;
+  background-color: orange;
+  margin-right: 10px;
+}
+
+.square4a {
+  height: 100px;
+  width: 100px;
+  background-color: red;
+  margin-right: 10px;
+}
+
+.square5a {
+  height: 100px;
+  width: 100px;
+  background-color: green;
+  margin-right: 10px;
+}
+
+.square6a {
+  height: 100px;
+  width: 100px;
+  background-color: black;
+  margin-right: 10px;
+}
+
+.square7a {
+  height: 100px;
+  width: 100px;
+  background-color: orangered;
+  margin-right: 10px;
+}
+
+.square8a {
+  height: 100px;
+  width: 100px;
+  background-color: #1ea3e6;
+  margin-right: 10px;
+}
+
+#squares3 {
+  display: flex;
+  justify-content: center;
+  min-width: 580px;
+}
+
+.square1b {
+  height: 100px;
+  width: 100px;
+  background-color: orangered;
+  margin-right: 10px;
+}
+
+.square2b {
+  height: 100px;
+  width: 100px;
+  background-color: skyblue;
+  margin-right: 10px;
+}
+
+.square3b {
+  height: 100px;
+  width: 100px;
+  background-color: brown;
+  margin-right: 10px;
+}
+
+.square4b {
+  height: 100px;
+  width: 100px;
+  background-color: green;
+  margin-right: 10px;
+}
+
+.square5b {
+  height: 100px;
+  width: 100px;
+  background-color: yellow;
+  margin-right: 10px;
+}
+
+.square6b {
+  height: 100px;
+  width: 100px;
+  background-color: #935ce6;
+  margin-right: 10px;
+}
+
+.square7b {
+  height: 100px;
+  width: 100px;
+  background-color: #cc8987;
+  margin-right: 10px;
+}
+
+.square8b {
+  height: 100px;
+  width: 100px;
+  background-color: blue;
+  margin-right: 10px;
+}

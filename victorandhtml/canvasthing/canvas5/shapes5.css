@@ -1,0 +1,41 @@
+h1 {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+a {
+	color: turquoise;
+	text-decoration: none;
+	cursor: auto;
+}
+
+#first {
+	color: green;
+}
+
+#last {
+	color: blue;
+}
+
+#color {
+	display: flex;
+	color: turquoise;
+	justify-content: space-around;
+	align-items: center;
+}
+
+#flexing {
+	display: flex;	
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+}
+
+#canvas1 {
+	border: blue 3px solid;
+}
+
+#canvas2 {
+	transform: rotate(90deg);

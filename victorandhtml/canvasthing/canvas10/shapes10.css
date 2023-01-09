@@ -1,0 +1,60 @@
+html {
+	background-color: green;
+}
+
+h1 {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+a {
+	color: blue;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+form {
+	display: flex;	
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+}
+
+label {
+	display: flex;	
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	font-size: 40px;
+}
+
+input {
+	background-color: skyblue;
+}
+
+select {
+	background-color: lightgreen;
+}
+
+#box {
+	height: 250px;
+	width: 500px;
+	display: flex;	
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.box1 {
+	display: flex;	
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	height: 250px;
+	width: 500px;
+}

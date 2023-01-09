@@ -1,0 +1,22 @@
+h1 {
+	color: blue;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+#flexing {
+	display: flex;	
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+}
+
+#canvas1 {
+	border: blue 3px solid;
+}
+
+#canvas2 {
+	transform: rotate(90deg);
+}

@@ -1,0 +1,52 @@
+body {
+  background-color: darkblue;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 3em;
+  min-width: 1050px;
+  margin-bottom: -30px;
+}
+
+#form {
+  display: flex;
+  justify-content: center;
+  min-width: 1050px;
+  margin-top: 50px;
+}
+
+#text {
+  width: 150px;
+  margin-left: -20px;
+}
+
+#button {
+  margin-left: 20px;
+}
+
+#circles {
+  display: flex;
+  justify-content: space-around;
+  min-width: 1050px;
+}
+
+.circle {
+  height: 100px;
+  width: 100px;
+  background-color: transparent;
+  border-radius: 50%;
+}
+
+.square {
+  height: 100px;
+  width: 100px;
+  background-color: transparent;
+}
+
+.rectangle {
+  height: 100px;
+  width: 200px;
+  background-color: transparent;
+}

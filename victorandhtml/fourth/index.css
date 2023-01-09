@@ -1,0 +1,383 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	background-color: black;
+}
+
+/*The "hide" animation will hide the object
+you want to hide from sight*/
+@keyframes hide {
+	from {
+		opacity: 1;
+	}
+
+	to {
+		opacity: 0;
+	}
+}
+
+@keyframes show {
+	from {
+		opacity: 0;
+	}
+
+	to {
+		opacity: 1;
+	}
+}
+
+#border {
+	display: none;
+	height: 93vh;
+	width: 150vh;
+	background-color: black;
+	border: 1.2vh solid white;
+	border-radius: 1em;
+	margin: auto;
+	margin-top: 2vh;
+}
+
+@keyframes displayBorder {
+	from {
+		border-color: black;
+	}
+
+	to {
+		border-color: white;
+	}
+}
+
+#button {
+	display: none;
+	justify-content: space-around;
+	color: white;
+	font-size: 1.8vh;
+	margin-top: 82vh;
+}
+
+#introduccion {
+	display: none;
+	justify-content: center;
+	margin: auto;
+	margin-top: -59vh;
+}
+
+#introTitle {
+	color: white;
+	font-size: 5vh;
+}
+
+#introPicture {
+	height: 37.5vh;
+}
+
+@keyframes introduccion {
+	from {
+		opacity: 0;
+	}
+
+	to {
+		opacity: 1;
+	}
+}
+
+#animation1, #animation2 {
+	display: none;
+	margin-top: -60vh;
+	margin-left: 96vh;
+}
+
+#privateHouse1, #privateHouse2 {
+	height: 40vh;
+	width: 40vh;
+	border: 1.2vh solid red;
+}
+
+.sideRoof1 {
+	height: 1.2vh;
+	width: 30vh;
+	background-color: red;
+	margin-top: -12vh;
+	margin-left: -5.2vh;
+	transform: rotate(135deg);
+}
+
+.sideRoof2 {
+	height: 1.2vh;
+	width: 30vh;
+	background-color: red;
+	margin-top: -1vh;
+	margin-left: 15.3vh;
+	transform: rotate(45deg);
+}
+
+.window1 {
+	height: 12vh;
+	width: 12vh;
+	border: 1.2vh solid darkred;
+	margin-top: 14vh;
+	margin-left: 4vh;
+}
+
+.window2 {
+	height: 12vh;
+	width: 12vh;
+	border: 1.2vh solid darkred;
+	margin-top: 4vh;
+	margin-left: 22vh;
+}
+
+.door {
+	height: 18vh;
+	width: 19vh;
+	border: 1.2vh solid darkred;
+	margin-top: -15.3vh;
+	margin-left: -15.5vh;
+	transform: rotateY(70deg);
+	animation: rotate 4s 1;
+}
+
+.doorHandle {
+	height: 2.5vh;
+	width: 2.5vh;
+	border-radius: 5vh;
+	background-color: red;
+	margin-top: 9vh;
+	margin-left: 2vh;
+}
+
+#wrongSign {
+	display: none;
+	height: 50vh;
+	width: 50vh;
+	border: 2vh solid darkred;
+	border-radius: 30vh;
+	margin-top: -51vh;
+	margin-left: -7vh;
+}
+
+.wrongLine {
+	height: 53vh;
+	width: 3vh;
+	background-color: darkred;
+	margin-top: -1.8vh;
+	margin-left: 23vh;
+	transform: rotate(50deg);
+}
+
+#checkmark {
+	display: none;
+	height: 45vh;
+	width: 16vh;
+	border: 3vh solid darkgreen;
+	border-top-color: transparent;
+	border-left-color: transparent;
+	margin-top: -51.4vh;
+	margin-left: 10vh;
+	transform: rotate(45deg);
+}
+
+#warrant {
+	display: none;
+	justify-content: center;
+	align-items: center;
+	height: 18vh;
+	width: 10vh;
+	background-color: darkgrey;
+	margin-top: -18.3vh;
+	margin-left: -50vh;
+	color: black;
+	font-size: 2.4vh;
+}
+
+.warrantText {
+	transform: rotate(65deg);
+}
+
+#resident1, #resident2 {
+	margin-top: -19vh;
+	margin-left: -70vh;
+}
+
+#resident1 > .name, #resident2 > .name {
+	color: white;
+	font-size: 2vh;
+	margin-top: -23vh;
+	margin-left: -1vh;
+}
+
+#resident1 > .head, #resident2 > .head {
+	height: 5.1vh;
+	width: 5vh;
+	border: .5vh solid darkred;
+	border-radius: 7vh;
+}
+
+#resident1 > .body, #resident2 > .body {
+	height: 7vh;
+	width: .5vh;
+	background-color: darkred;
+	margin-left: 2.9vh;
+}
+
+#resident1 > .leftLeg, #resident2 > .leftLeg {
+	height: 6.5vh;
+	width: .5vh;
+	background-color: darkred;
+	margin-top: -.3vh;
+	margin-left: 1.8vh;
+	transform: rotate(20deg);
+}
+
+#resident1 > .rightLeg, #resident2 > .rightLeg {
+	height: 6.5vh;
+	width: .5vh;
+	background-color: darkred;
+	margin-top: -6.5vh;
+	margin-left: 4vh;
+	transform: rotate(160deg);
+}
+
+#resident1 > .leftHand, #resident2 > .leftHand {
+	height: 5vh;
+	width: .5vh;
+	background-color: darkred;
+	margin-top: -12vh;
+	margin-left: 0.5vh;
+	transform: rotate(70deg);
+}
+
+#resident1 > .rightHand, #resident2 > .rightHand {
+	height: 5vh;
+	width: .5vh;
+	background-color: darkred;
+	margin-top: -4vh;
+	margin-left: 0.7vh;
+	transform: rotate(50deg);
+}
+
+#police, #police2 {
+	margin-top: -13.5vh;
+	margin-left: -88vh;
+}
+
+#police1 > .name, #police2 > .name {
+	color: white;
+	font-size: 2vh;
+	margin-top: -17vh;
+	margin-left: 0.5vh;
+}
+
+#police1 > .head, #police2 > .head {
+	height: 5.1vh;
+	width: 5vh;
+	border: .5vh solid darkblue;
+	border-radius: 7vh;
+}
+
+#police1 > .body, #police2 > .body {
+	height: 7vh;
+	width: .5vh;
+	background-color: darkblue;
+	margin-left: 2.9vh;
+}
+
+#police1 > .leftLeg, #police2 > .leftLeg {
+	height: 6.5vh;
+	width: .5vh;
+	background-color: darkblue;
+	margin-top: -.3vh;
+	margin-left: 1.8vh;
+	transform: rotate(20deg);
+}
+
+#police1 > .rightLeg, #police2 > .rightLeg {
+	height: 6.5vh;
+	width: .5vh;
+	background-color: darkblue;
+	margin-top: -6.5vh;
+	margin-left: 4vh;
+	transform: rotate(160deg);
+}
+
+#police1 > .leftHand, #police2 > .leftHand {
+	height: 5vh;
+	width: .5vh;
+	background-color: darkblue;
+	margin-top: -12vh;
+	margin-left: 5.3vh;
+	transform: rotate(-70deg);
+}
+
+#police1 > .rightHand, #police2 > .rightHand {
+	height: 5vh;
+	width: .5vh;
+	background-color: darkblue;
+	margin-top: -4vh;
+	margin-left: 5vh;
+	transform: rotate(-50deg);
+}
+
+#a1context, #a2context {
+	width: 93vh;
+	margin-top: -66vh;
+	margin-left: -95vh;
+	font-size: 3.1vh;
+	color: grey;
+}
+
+#exercisingRights, #violatedRights, #interestingCase, #myOpinion {
+	display: none;
+}
+
+#exercisingTitle, #violatedTitle, #interestingTitle {
+	display: flex;
+	justify-content: center;
+	margin-top: -89vh;
+	color: grey;
+	font-size: 4vh;
+}
+
+.lineDivider {
+	height: 75vh;
+	width: 1vh;
+	background-color: white;
+	margin-top: 0vh;
+	margin-left: 75vh;
+}
+
+#example1 {
+	height: 75vh;
+	width: 60vh;
+	margin-top: -77vh;
+	margin-left: 7vh;
+}
+
+#example2 {
+	height: 75vh;
+	width: 60vh;
+	margin-top: -76.6vh;
+	margin-left: 84vh;
+}
+
+#exampleTitle {
+	display: flex;
+	justify-content: center;
+	height: 8vh;
+	color: white;
+	font-size: 2.7vh;
+}
+
+#exampleText, #opinionText {
+	color: lightgrey;
+	font-size: 2.2vh;
+	margin-top: 0vh;
+}
+
+#opinionTitle {
+	display: flex;
+	justify-content: center;
+	margin-top: -81vh;
+	color: grey;
+	font-size: 4vh;
+}

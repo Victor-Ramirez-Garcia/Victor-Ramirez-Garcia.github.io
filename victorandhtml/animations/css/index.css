@@ -1,0 +1,46 @@
+/*This is the index style from index.html*/
+:root {
+  --gradient: linear-gradient(to right, #eea2a2 0%, #bbc1bf 19%, #57c6e1 42%, #b49fda 79%, #7ac5d8 100%);
+}
+/*This is were you can give a css value a variable and I named this variable gradient and it has a gradient*/
+
+/*This is the body, say hi body!!
+I made the body a margin and padding of 0px
+with no scrollbar
+and a background-image of a gradient
+with a background-size of 500% and this is necessary for the animation
+the animation name is called gradients and it lasts 5 seconds
+and it repeats itself infinitely and I made it alternate
+so that it does not have that weird move to the beginning drastically*/
+body {
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+  background-size: 500%;
+  background-image: var(--gradient);
+  animation: gradients 5s infinite alternate;
+}
+
+/*This is were I made the gradient
+move from left to right
+and right to left infinitely*/
+@keyframes gradients {
+  0% {
+    background-position: left;
+  }
+
+  100% {
+    background-position: right;
+  }
+}
+/*End of body*/
+
+/*This is my h1 tag
+it has a flex display to be centered
+with a font-size of 2.5em*/
+h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 2.5em;
+}
+/*End of h1*/

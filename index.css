@@ -1,0 +1,358 @@
+/*
+    For all elements
+*/
+* {
+    margin: 0px;
+    padding: 0px;
+    background-color: #9d9ea3;
+}
+
+/*
+    Navigation bar
+*/
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 95%;
+    margin: 0.5vw auto;
+}
+
+.navbar-header {
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-logos {
+    display: flex;
+    justify-content: space-evenly;
+    width: 70%;
+}
+
+.navbar-logos a {
+    width: 4.5vw;
+}
+
+.navbar-logos img {
+    width: inherit;
+}
+
+/*
+    Greeting to the user
+*/
+.main-header-1 {
+    text-align: center;
+    font-size: 3vw;
+    margin-top: -1vw;
+}
+
+.main-description-1 {
+    text-align: center;
+    font-size: 2vw;
+}
+
+.main-description-1 u {
+    font-size: 2.2vw;
+}
+
+/*  
+    'Main' and 'Profile' collapsible-buttons
+*/
+.main-collapsible-buttons {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.profile-collapsible-buttons {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5px;
+    width: 100%;
+}
+
+/*
+    'Main' and 'Profile' collapsible-button
+*/
+.main-collapsible-button {
+    height: 3.5vw;
+    width: 49%;
+    font-size: 2vw;
+    text-align: left;
+    padding: 0 2vw;
+    border: 0.15vw solid black;
+}
+
+.profile-collapsible-button {
+    height: 2.5vw;
+    width: 24%;
+    font-size: 1.5vw;
+    text-align: left;
+    padding: 0 1.5vw;
+    border: 0.12vw solid black;
+}
+
+.main-collapsible-button::after, .profile-collapsible-button::after {
+    content: "\002B";
+    font-weight: bold;
+    float: right;
+}
+
+/*
+    'Main' and 'Profile' collapsible-button-active
+*/
+.main-collapsible-button-active::after, .profile-collapsible-button-active::after {
+    content: "\2212";
+}
+
+/*
+    'Main' and 'Profile' collapsible-button-content
+*/
+.main-collapsible-button-content, .profile-collapsible-button-content {
+    display: none;
+}
+
+/*
+    'Main' and 'Profile' collapsible button-content-active
+*/
+.main-collapsible-button-content-active {
+    display: block;
+    width: 100%;
+    margin-top: 4vw;
+    position: absolute;
+}
+
+.profile-collapsible-button-content-active {
+    display: block;
+    width: 100%;
+    margin-top: 3vw;
+    position: absolute;
+}
+
+/*
+    Technical skills
+*/
+.technical-skills {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.technical-skill {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 0.5vw;
+}
+
+.technical-skill-name {
+    font-size: 2.5vw;
+    width: 100%;
+    text-align: center;
+}
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0% auto;
+}
+
+.skills-row {
+    display: flex;
+    width: 100%;
+    margin: 5px 0px;
+}
+
+.skill {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.skill p {
+    text-align: center;
+}
+
+.skill-name {
+    font-size: 2vw;
+}
+
+.skill-experience {
+    font-size: 1.6vw;
+}
+
+.skill-experience-long {
+    font-size: 1.5vw;
+}
+
+/*
+    Education
+*/
+.education {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    position: absolute;
+}
+
+.schools {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.schools-row {
+    display: flex;
+    justify-content: space-around;
+}
+
+.school {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+}
+
+.school img {
+    width: 100%;
+}
+
+.school a {
+    text-align: center;
+}
+
+.school p {
+    font-size: 1.3vw;
+    text-align: center;
+}
+
+/*
+    Experience
+*/
+.experience {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    position: absolute;
+}
+
+.jobs {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.jobs-row {
+    display: flex;
+    justify-content: space-around;
+}
+
+.job {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+
+.job img {
+    width: 100%;
+}
+
+.job a {
+    text-align: center;
+}
+
+.job p {
+    font-size: 1.3vw;
+    text-align: center;
+}
+
+.job-description {
+    font-size: 1.2vw;
+    margin: 0% 11%;
+}
+
+.job-description li {
+    margin: 1% 0%;
+    padding: 0% 1%;
+}
+
+/*
+    About Me
+*/
+.about-me {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.about-me-description {
+    text-align: center;
+}
+
+.about-me-description h1 {
+    font-size: 2vw;
+}
+
+.about-me-description p {
+    font-size: 1.3vw;
+}
+
+/*
+    Projects
+*/
+.projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.projects-row {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.project {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    border: 0.3vw solid black;
+    border-radius: 1vw;
+}
+
+.project-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+
+.project-title {
+    font-size: 1.5vw;
+}
+
+.project-link {
+    font-size: 1.1vw;
+    text-align: center;
+}
+
+.project-description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 49%;
+    text-align: center;
+}
+
+.project-description p {
+    width: 95%;
+    font-size: 1.5vw;
+    float: left;
+}
+
+.project-description-title {
+    font-size: 1.5vw;
+}

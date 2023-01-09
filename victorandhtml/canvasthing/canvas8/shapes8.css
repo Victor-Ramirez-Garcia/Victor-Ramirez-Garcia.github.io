@@ -1,0 +1,33 @@
+h1 {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+a {
+	color: blue;
+	text-decoration: none;
+	cursor: none;
+}
+
+#flexing {
+	display: flex;	
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+}
+
+#flexing2 {
+	display: flex;	
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+}
+
+#circle {
+	margin-top: -15px;
+	margin-left: -325px;	
+	transform: rotate(270deg);
+}

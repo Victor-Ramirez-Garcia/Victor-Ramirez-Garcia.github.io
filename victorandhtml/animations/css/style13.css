@@ -1,0 +1,68 @@
+body {
+	background-size: 300%;
+  	background-image: linear-gradient(to right, #3ab5b0 0%, #3d99be 31%, #56317a 100%);
+  	min-width: 1050px;
+  	animation: gradients1 5s infinite alternate;
+}
+
+@keyframes gradients1 {
+	0% {
+		background-position: left;
+	}
+
+	100% {
+		background-position: right;
+	}
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 3em;
+}
+
+h1::selection {
+	background-color: transparent;
+}
+
+#form {
+  display: flex;
+  justify-content: center;
+  min-width: 1044px;
+  margin-top: 60px;
+}
+
+#text {
+  margin-left: -20px;
+  background-color: transparent;
+  border-color: transparent;
+  cursor: context-menu;
+}
+
+#button {
+  margin-left: 20px;
+  color: transparent;
+  background-color: transparent;
+  border-color: transparent;
+}
+
+#context {
+	color: transparent;
+}
+
+#context2 {
+	color: transparent;
+}
+
+#main {
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+}
+
+#circle {
+	height: 300px;
+	width: 300px;
+	background-color: blue;
+	border-radius: 50%;
+}

@@ -1,0 +1,57 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	background-color: black;
+}
+/*The html and body tags are going to have 0 margin and 0 padding
+with a background color of black*/
+
+button {
+	height: 5.5vh;
+	width: 12vh;
+	font-size: 3vh;
+	border-radius: 1.5vh;
+	background-color: grey;
+}
+/*the button tags are going to have a height of 5.5vh and a width of 12vh
+with border-radius of 1.5em and a margin-top of 1vh with a background
+color of grey*/
+
+#buttonCenter {
+	display: flex;
+	justify-content: center;
+}
+/*The buttonCenter div is displaying the flexbox for the buttons
+to be centered with the maze*/
+
+#border {
+	height: 87vh;
+	width: 87vh;
+	border: 11px solid white;
+	border-radius: 1em;
+	margin: auto;
+	margin-top: 2vh;
+}
+/*
+I use virtual height units on both of them (height and width) 
+so that the height and width of the borders get smaller 
+everytime the height of the browser gets smaller
+*/
+
+#MovingSquare {
+	background-color: red;
+	height: 3vh;
+	width: 3vh;
+}
+/*This is the moving red square*/
+
+#EndSquare {
+	position: relative;
+	background-color: green;
+	height: 3vh;
+	width: 3vh;
+	margin-top: -3vh;
+	top: 75vh;
+	left: 84vh;
+}
+/*This is the end green square once you finished the maze*/
